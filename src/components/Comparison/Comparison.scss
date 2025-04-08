@@ -1,0 +1,46 @@
+.comparison {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+
+    &__title {
+        font-size: 24px;
+        font-weight: bold;
+        color: #1e40af;
+    }
+
+    &__intro {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    &__chart {
+        margin-top: 30px;
+    }
+
+    &__bar-container {
+        margin-bottom: 25px;
+    }
+
+    &__bar-info {
+        margin-bottom: 4px;
+        font-weight: bold;
+        font-size: 16px;
+        color: #333;
+    }
+
+    &__bar {
+        height: 32px;
+        border-radius: 6px;
+    }
+
+    &__label {
+        margin-top: 5px;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    &__note {
+        margin-top: 30px;
+        font-size: 16px;
+    }
+}

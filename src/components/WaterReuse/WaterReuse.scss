@@ -1,0 +1,93 @@
+.water-reuse {
+    padding: 2rem 1rem;
+    font-family: Arial, sans-serif;
+
+    &__title {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #2563eb;
+        text-align: center;
+    }
+
+    &__intro {
+        margin-top: 1rem;
+        text-align: center;
+        font-size: 1.125rem;
+    }
+
+    &__grid {
+        margin-top: 2rem;
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: 1fr;
+
+        @media (min-width: 768px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    &__card {
+        position: relative;
+        padding: 1.5rem;
+        border-radius: 0.5rem;
+        border: 1px solid;
+        overflow: hidden;
+
+        &--blue {
+            background-color: #eff6ff;
+            border-color: #bfdbfe;
+        }
+
+        &--green {
+            background-color: #ecfdf5;
+            border-color: #bbf7d0;
+        }
+    }
+
+    &__card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+
+        &--blue {
+            color: #1e40af;
+        }
+
+        &--green {
+            color: #065f46;
+        }
+    }
+
+    &__list {
+        margin-top: 1rem;
+        padding-left: 1.5rem;
+        list-style: disc;
+        font-size: 1rem;
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+    }
+
+    &__icon {
+        position: absolute;
+        bottom: -1rem;
+        right: -1rem;
+        opacity: 0.2;
+        pointer-events: none;
+    }
+
+    &__extra {
+        margin-top: 2rem;
+        font-size: 1.125rem;
+
+        ul {
+            padding-left: 2rem;
+            list-style: disc;
+            margin-top: 0.5rem;
+
+            li {
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+}
